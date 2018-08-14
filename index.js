@@ -1,5 +1,10 @@
 var units = require('./units.json');
 
-module.exports = function convert(measurement, unit, value) {
-  return units[measurement][unit] && value / units[measurement][unit].value;
+function round(value, decimals) {
+  return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+}
+
+module.exports = function convert(measurement, unit, value, precision = 4) {
+  var result = units[measurement][unit] && value / units[measurement][unit].value;
+  return round(result, precision);
 };
