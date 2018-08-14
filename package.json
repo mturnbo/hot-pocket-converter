@@ -1,8 +1,12 @@
 {
   "name": "hot-pocket-converter",
   "description": "Hot Pocket Unit Converter",
-  "version": "0.1.1",
-  "keywords": ['hot pocket', 'unit', 'converter'],
+  "version": "0.1.2",
+  "keywords": [
+    "hot pocket",
+    "unit",
+    "converter"
+  ],
   "author": "Marcus E. Turnbo <marcus@emarcus.com>",
   "license": "MIT",
   "repository": {
@@ -11,6 +15,10 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
   }
 }
