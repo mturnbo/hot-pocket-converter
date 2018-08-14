@@ -1,0 +1,51 @@
+{
+  "length": {
+    "a": {"name": "Angstroms", "value": "1270000000"},
+    "in": {"name": "Inches", "value": "5"},
+    "ft": {"name": "Feet", "value": "0.41667"},
+    "cm": {"name": "Centimeters", "value": "12.699961646"},
+    "yd": {"name": "Yards", "value": "0.138888469444"},
+    "m": {"name": "Meters", "value": "0.12699961646"},
+    "mi": {"name": "Miles", "value": "7.8914E-5"},
+    "km": {"name": "Kilometers", "value": "0.000127"},
+    "nm": {"name": "Nautical Miles", "value": "6.85743911533E-5"},
+    "au": {"name": "Astronomical Units", "value": "8.4894E-13"},
+    "ly": {"name": "Light Years", "value": "1.3424E-17"},
+    "pc": {"name": "Parsecs", "value": "4.1158E-18"}
+  },
+  "weight": {
+    "g": {"name": "Grams", "value": "128"},
+    "oz": {"name": "Ounces", "value": "4.515"},
+    "lb": {"name": "Pounds", "value": "0.2822"},
+    "kg": {"name": "Kilograms", "value": "0.128"},
+    "tn": {"name": "Tons", "value": "1.411E-4"},
+    "mt": {"name": "Metric Tons", "value": "1.28E-4"}
+  },
+  "time": {
+    "s": {"name": "Seconds", "value": "120"},
+    "i": {"name": "Minutes", "value": "2"},
+    "ds": {"name": "Decimal Seconds", "value": "103.68"},
+    "h": {"name": "Hours", "value": "0.033333"},
+    "d": {"name": "Days", "value": "0.001388"},
+    "w": {"name": "Weeks", "value": "0.0001984127"},
+    "m": {"name": "Months", "value": "0.00004563178"},
+    "y": {"name": "Years", "value": "0.000003805175"}
+  },
+  "currency": {
+    "USD": {"name": "US Dollars", "value": "2"},
+    "EU": {"name": "Euros", "value": "1.386"}
+  },
+  "temperature": {
+    "F": {"name": "Fahrenheit", "value": "140"},
+    "C": {"name": "Celsius", "value": "60"},
+    "K": {"name": "Kelvin", "value": "333.15"}
+  },
+  "energy": {
+    "C": {"name": "Calories", "value": "360"},
+    "J": {"name": "Joules", "value": "1506.24"},
+    "BTU": {"name": "British Thermal Units", "value": "1.42764"},
+    "ERG": {"name": "Ergs", "value": "1.506E13"},
+    "KW": {"name": "Kilowatt Hour", "value": "0.000418399"},
+    "EV": {"name": "Electron Volt", "value": "9.401210641475835E21"}
+  }
+}
