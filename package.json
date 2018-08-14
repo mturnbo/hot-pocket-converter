@@ -1,0 +1,12 @@
+{
+  "name": "hot-pocket-converter",
+  "version": "0.1.0",
+  "description": "Hot Pocket Unit Converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ['hot pocket', 'unit', 'converter'],
+  "author": "Marcus E. Turnbo <marcus@emarcus.com>",
+  "license": "MIT"
+}
