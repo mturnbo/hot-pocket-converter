@@ -1,7 +1,7 @@
 var expect = require('chai').expect;
 var converter = require('./index');
 
-describe('converter', function() {
+describe('hot pocket converter', function() {
   it('should convert 12 ft to 28.7998 hot pockets', function() {
     var result = converter('length', 'ft', 12);
     expect(result).to.equal(28.7998);
