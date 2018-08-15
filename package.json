@@ -1,7 +1,7 @@
 {
   "name": "hot-pocket-converter",
   "description": "Hot Pocket Unit Converter",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "keywords": [
     "hot pocket",
     "unit",
@@ -14,11 +14,14 @@
     "url": "https://github.com/mturnbo/hot-pocket-converter.git"
   },
   "main": "index.js",
-  "scripts": {
-    "test": "mocha --reporter spec"
+  "engines": {
+    "node": ">=4"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
   }
 }
